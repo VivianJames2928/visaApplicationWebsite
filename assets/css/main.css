@@ -1,0 +1,561 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #e1e1e1;
+}
+#topBar{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+    background-color: #440473;
+}
+
+.hamburger{
+    display: none !important;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #fb04cb;
+    text-align: center;
+}
+
+#nav.scrolled{
+    top: 10;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    font-family: sans-serif;
+}
+
+ul>a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #440473;
+    font-weight: 600;
+}
+
+ul>a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .navBar{
+        display: none;
+    }
+    #topBar{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    }
+    #topBar p{
+        display: none;
+    }
+    .hamburger{
+        display: block !important;
+        margin-top: 35px;
+        font-size: 30px !important;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    #visit{
+        font-size: 50px !important;
+    }
+    #note{
+        font-size: 18px !important;
+    }
+    #topBar.scrolled{
+     top: 10;
+}
+}
+
+
+.book-tourInfo{
+    margin-left: 30px;
+    margin-top: -100px;
+}
+.book-us>button{
+    padding: 10px;
+    width: 130px;
+    margin-top: -10px;
+    font-size: 15px;
+    color: #fb04cb;
+    border-style: none;
+    border-radius: 20px;
+}
+
+.tourInfo{
+    padding-top: 20px;
+}
+
+#visit{
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#note{
+    font-size: 20px;
+    margin-top: -25px;
+    opacity: 0.5;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 768px){
+
+    .tours {
+        width: 80% !important;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 10px;
+        /* continue form filled */
+    }
+    .tourInfo{
+        width: 71% !important;
+        flex-direction: column;
+        gap: 20px !important;
+        height: auto !important;
+        align-items: center;
+        padding: 30px 10px !important;
+        border-top-left-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+    .tourImg{
+        display: none;
+    }
+    .search{
+        width: 75% !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 20px !important;
+    }
+    .firstImgs{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.tours{
+    width: 88%;
+    display: flex;
+    gap: 0;
+    align-items: center;
+}
+
+
+.tourInfo{
+    width: 68%;
+    height: 130px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#inputEnter{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#inputEnter label{
+    font-size: 18px;
+}
+
+#inputEnter select{
+    width: 200px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    opacity: 0.5;
+}
+
+#inputEnter input{
+    width: 200px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+.search{
+    border: none;
+    padding-left: 50px;
+    cursor: pointer;
+    height: 130px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #440473;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.fa-magnifying-glass{
+    padding-left: 25px;
+    margin-bottom: 7px;
+}
+
+.keywords{
+    background-color: #440473;
+}
+
+.book-us{
+    margin-top: 200px;
+}
+
+.tourImg{
+    width: 510px;
+    height: 700px;
+    margin: 250px 700px;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -4;
+}
+
+section{
+    margin-top: 150px;
+    text-align: center;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+.allDestination h1{
+    font-size: 50px;
+}
+
+.allDestination :nth-child(2){
+    font-size: 19px;
+    padding-bottom: 20px;
+    color: rgb(128, 128, 128);
+}
+
+#moreDestination{
+    width: 130px;
+    margin: 0px auto;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+    transition: border-bottom 0.3s ease;
+}
+
+#moreDestination:hover{
+    border-bottom: 2px solid #4035d8;
+}
+
+.fa-solid{
+    font-size: 12px;
+    width: 20px;
+    color: rgba(128, 128, 128, 0.5);
+}
+
+.hr{
+    width: 130px;
+    margin: 0px auto;
+    border-top: 0.2em solid rgba(128, 128, 128, 0.5);
+}
+
+#imageSection{
+    margin-top: 70px;
+}
+
+.firstImgs{
+    gap: 30px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.egy{
+    background-image: url("/assets/img/egy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+    opacity: 0.9;
+}
+.can{
+    background-image: url("/assets/img/canada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+    opacity: 0.9;
+}
+.chn{
+    background-image: url("/assets/img/china.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+    opacity: 0.9;
+}
+.usa{
+    background-image: url("/assets/img/america.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+    opacity: 0.9;
+}
+.aus{
+    background-image: url("/assets/img/australia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+    opacity: 0.9;
+}
+.sa{
+    background-image: url("/assets/img/southAfrica.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+    opacity: 0.9;
+}
+
+h6{
+    width: 17%;
+    height: 10%;
+    font-size: 15px;
+    padding-top: 7px;
+    margin-left: 79%;
+    text-align: right;
+    padding-right: 5px;
+    border-radius: 10px;
+    background-color: #440473;
+}
+
+.write{
+    padding-top: 110px;
+    /* background-color: #fb04cb; */
+}
+
+.pTours{
+    display: flex;
+    gap: 10px;
+}
+
+.popularTour p{
+    padding-top: 80px;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+@media (max-width: 600px) {
+    #dub{
+        margin: 0 auto;
+    }
+    #tur{
+        display: none;
+    }
+    #fra{
+        display: none;
+    }
+    #can{
+        display: none;
+    }
+    #sou{
+        display: none;
+    }
+    #usa{
+        display: none;
+    }
+}
+
+#dub{
+    background-image: url("/assets/img/burjkhalifadubai.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+#tur{
+    background-image: url("/assets/img/Cappadociaturkey.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+#fra{
+    background-image: url("/assets/img/eiffeltower.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+#can{
+    background-image: url("/assets/img/niagarafalls.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+#sou{
+    background-image: url("/assets/img/southAfrica.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+#usa{
+    background-image: url("/assets/img/statueofliberty.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.carousel1{
+    display: flex;
+    gap: 30px;
+}
+
+.carousel{
+    display: flex;
+    gap: 30px;
+    animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#sm{
+    width: 90px;
+    font-size: 18px;
+    margin: 0px auto;
+    padding-top: 50px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+    transition: border-bottom 0.3s ease;
+}
+
+#sm:hover{
+    border-bottom: 2px solid #4035d8;
+}
+
+.newlist{
+    margin-top: 100px;
+}
+
+.newListing{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.freshTour{
+    display: flex;
+}
+
+.snorkeling{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.snorkeling p{
+    padding-top: 230px;
+}
+
+#M{
+    font-size: 25px;
+}
+
+#firstList1{
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #e1e1e1;
+}
+
+.africa{
+    background-image: url('/assets/img/zebra.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    width: 250px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.africa p{
+    padding-top: 250px;
+}
