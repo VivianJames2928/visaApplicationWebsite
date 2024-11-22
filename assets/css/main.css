@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #e1e1e1;
+    background-color: #FFFFFF;
 }
 #topBar{
     height: 110px;
@@ -98,6 +98,8 @@ ul>a:hover{
 
 .tourInfo{
     padding-top: 20px;
+    background-color: #ebeaea !important;
+    
 }
 
 #visit{
@@ -191,6 +193,7 @@ ul>a:hover{
     font-size: 14px;
     border: none;
     outline: none;
+    background-color: #ebeaea;
 }
 
 .search{
@@ -510,52 +513,357 @@ a:hover{
     border-bottom: 2px solid #4035d8;
 }
 
-.newlist{
+#discover{
     margin-top: 100px;
-}
-
-.newListing{
-    font-size: 50px;
-    font-weight: 400;
-}
-
-.freshTour{
+    height: 330px;
     display: flex;
+    justify-content: space-around;
 }
 
-.snorkeling{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.familyImg{
+    background-image: url('/assets/img/vacation.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 550px;
+    border-radius: 20px;
 }
 
-.snorkeling p{
-    padding-top: 230px;
+.spanDis{
+    display: block;
+    margin-top: 70px;
+    justify-items: left;
+    margin-left: 35px;
 }
 
-#M{
+.familyImg h3{
+    color: white;
+    font-size: 50px;
+}
+
+.familyImg p {
+    color: white;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.familyImg button{
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #440473;
+}
+
+#subscription{
+    width: 550px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+
+.subSec{
+    display: block;
+    justify-items: left;
+    padding-left: 20px;
+    margin-top: 80px;
+}
+
+.subSec h3{
+    font-size: 33px;
+}
+
+.subSec p{
+    font-size: 17px;
+    color: grey;
+}
+
+.subButton{
+    width: 370px;
+    display: flex;
+    position: relative;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.subButton input{
+    border: none;
+    width: 270px;
+    height: 50px;
+    font-size: 13px;
+    padding-left: 32px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.inputSub{
+    display: flex;
+    position: relative;
+}
+
+.inputSub i {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    font-size: 14px;
+}
+
+.buttonSub{
+    float: left;
+}
+
+.subButton button{
+    border: none;
+    height: 50px;
+    width: 140px;
+    color: white;
+    border-radius: 50px;
+    background-color: #440473;
+}
+
+.contactInfo{
+    display: flex;
+    margin-top: 40px;
+    height: auto;
+    padding: 80px 0px 80px 0px;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.contactInfo i{
+    margin-right: -80px;
+    margin-top: 30px;
+    font-size: 50px;
+    color: #6e64f9;
+}
+
+.contactMes{
+    display: block;
+}
+
+.contactMes h3{
     font-size: 25px;
 }
 
-#firstList1{
-    width: 250px;
-    height: 400px;
-    border-radius: 10px;
-    margin-left: 30px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    background-color: #e1e1e1;
+.contactMes p{
+    color: grey;
+    font-size: 18px;
 }
 
-.africa{
-    background-image: url('/assets/img/zebra.jpg');
+.contactUs{
+    height: auto;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: white;
+    background-color: rgb(36, 35, 35);
+    justify-content: space-around;
+}
+
+.contactUs img{
+    padding-top: 20px;
+}
+
+.contact{
+    text-align: left;
+}
+
+.contact h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.payment{
+    text-align: left;
+}
+
+.payment h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black !important;
+    color: grey;
+}
+
+.footerNav{
+    background-color: black !important;
+}
+
+.footerNav ul li{
+    margin-right: 18px;
+}
+
+footer p{
+    margin-right: 40px;
+}
+
+
+
+/* Destination Css */
+/* #F3F3F5 */
+.exploreDestination{
+    width: auto;
+    height: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color:#F3F3F5;
+    text-align: center;
+}
+
+.exploreDestination h1{
+    font-size: 90px;
+    margin-bottom: -10px;
+}
+
+.exploreDestination p{
+    color: grey;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#destinationImage{
+    margin-top: 70px;
+}
+
+.desImgs{
+    gap: 30px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.egypt{
+    background-image: url("/assets/img/egy.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-repeat: repeat;
     background-position: center;
-    width: 250px;
-    height: 200px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    width: 570px;
+    height: 450px;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+    opacity: 0.9;
+}
+.canada{
+    background-image: url("/assets/img/canada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 570px;
+    height: 450px;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+    opacity: 0.9;
+}
+.china{
+    background-image: url("/assets/img/china.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 570px;
+    height: 450px;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+    opacity: 0.9;
+}
+.uSa{
+    background-image: url("/assets/img/america.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 570px;
+    height: 450px;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+    opacity: 0.9;
+}
+.australia{
+    background-image: url("/assets/img/australia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 570px;
+    height: 450px;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+    opacity: 0.9;
+}
+.southAfrica{
+    background-image: url("/assets/img/southAfrica.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 570px;
+    height: 450px;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+    opacity: 0.9;
 }
 
-.africa p{
-    padding-top: 250px;
+h5{
+    width: 10%;
+    height: 5%;
+    font-size: 15px;
+    padding-top: 7px;
+    margin-left: 79%;
+    text-align: right;
+    padding-right: 5px;
+    border-radius: 10px;
+    background-color: #440473;
+}
+
+.writee{
+    padding-top: 290px;
+    text-align: center;
+    /* background-color: #fb04cb; */
+}
+
+/*Tour Group Section*/
+.touristImg{
+    background-image: url("../img/tourgroup.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 400px;
+}
+
+.content1{
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    font-weight: 200;
+    top: 100px;
+    left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.abtGuide{
+    display: flex;
+    flex-direction: column;
+    /* text-align: left; */
+}
+
+.abtGuide h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #440473;
+}
+
+.desSearch{
+    display: flex;
+}
+
+.searchDes{
+    gap: 20px;
+    background-color: red;
 }

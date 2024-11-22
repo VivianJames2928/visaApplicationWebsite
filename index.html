@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leva Solutions</title>
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 </head>
 
@@ -22,20 +22,18 @@
         </div>
         <nav class="navBar">
             <ul>
-                <a href="">
+                <a href="index.html">
                     <li>Home</li>
                 </a>
-                <a href="">
-                    <li>Pages</li>
+                <a href="destination.html">
+                    <li>Destination</li>
                 </a>
-                <a href="">
-                    <li>Tour Group</li>
-                </a>
-                <a href="">
-                    <li>Visa Service</li>
+                <a href="tourSearch.html">
+                    <li>Tour Search</li>
                 </a>
                 <a href="">
                     <li>Visa Service</li>
+                </a>
                 </a>
                 <a href="">
                     <li>Blog</li>
@@ -66,7 +64,7 @@
 
                     <div id="inputEnter">
                         <label for="destination">Destination</label>
-                        <select name="destination" id="destination">
+                        <select name="destination" id="destination" style="background-color: #ebeaea;">
                             <br />
                             <option value="">Any</option>
                             <option value="usa">America</option>
@@ -80,7 +78,7 @@
 
                     <div id="inputEnter">
                         <label for="duration">Duration</label>
-                        <select name="duration" id="duration">
+                        <select name="duration" id="duration" style="background-color: #ebeaea;">
                             <br />
                             <option value="">Any</option>
                             <option value="">1 Day Tour</option>
@@ -170,33 +168,100 @@
             </a>
         </div>
 
-        <div class="newlist">
-            <h1 class="newListing">Freshly <span style="color: #440473;">Added</span></h1>
+        <div id="discover">
+            <div class="familyImg">
+                <span class="spanDis">
+                <h3>Discover Special Deals!</h3>
+                <p>Make sure to check out these special</p> <p>promotions</p>
+                <button>See Tours</button>
+                </span>
+            </div>
+
+            <div id="subscription">
+                <div class="subSec">
+                    <h3>Don’t miss a thing</h3>
+                    <p>Get update to special deals and exclusive offers.</p>
+                    <p> Sign up to our newsletter!</p>
+                    <form class="subButton">
+                        <div class="inputSub">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <input type="email" id="emailInput" placeholder=" Your Email Address">
+                        </div>
+                        <div class="buttonSub">
+                            <button onclick="sendEmail()">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
 
-        <!-- Freshly Added -->
-        <div class="freshTour">
-            <div id="firstList1">
-                <div class="snorkeling">
-                    <img src="assets/img/Molokini.jpg" alt="img" width="250px" height="200px">
-                    <span id="M">Molokini and <br>Turtle <br>Snorkeling</span> <br><br>From 80$</span>
-                </div>
+        <div class="contactInfo">
+            <i class="fa-solid fa-earth-africa"></i>
+            <div class="contactMes">
+                    <h3>700 Destination</h3>
+                    <p>Our expert team handpicked all <br> destinations in this site</p>
+                    
             </div>
 
-            <div id="firstList1">
-                <div class="africa">
-                    <span id="M">Africa - <br>Amazing <br>African Safari</span></span>
-                </div>
+           <i class="fa-solid fa-money-bill-1-wave"></i>
+            <div class="contactMes">
+                    <h3>Best Price Gurantee</h3>
+                    <p>Price match within 48 hours of <br> order confirmation</p>
+                    
             </div>
 
+            <i class="fa-solid fa-phone"></i>
+            <div class="contactMes">
+                    <h3>Top Notch Support</h3>
+                    <p>We are here to help, before, <br> during, and even after your trip.</p>
+                    
+            </div>
+        </div>
+
+        <div class="contactUs">
             <div>
-                <div>
-                   <span>Pais – Eiffel <br> Tower, Notre <br> Dame Cath.. <br> (1 Review) <br>
-                   From$800</span>
-                </div>
+                <img src="assets/img/Leva 1 png.png" alt="logo" width="200px" height="50px">
+            </div>
+
+            <div class="contact">
+            <h3>Contact</h3>
+            <p>T: <span style="color: gray;">+234-8142 393 888</span></p>
+            <p>E: <span style="color: gray;">leva.solutions@gmail.com</span></p>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            </div>
+
+            <div class="payment">
+            <h3>Pay Safely With Us</h3>
+            <p>The payment is encrypted and <br> transmitted securely with an SSL <br> protocol.</p>
+
+            <span>
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-cc-paypal"></i>
+            </span>
+
             </div>
         </div>
     </section>
+    
+    <footer>
+        <div>
+            <nav class="footerNav">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <p>Copyright © Leva Solutions. All Rights Reserved.</p>
+        </div>
+    </footer>
     <script src="assets/js/main.js"></script>
 </body>
 
