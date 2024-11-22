@@ -288,7 +288,7 @@ section{
 }
 
 .egy{
-    background-image: url("/assets/img/egy.jpg");
+    background-image: url("assets/img/egy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -301,7 +301,7 @@ section{
     opacity: 0.9;
 }
 .can{
-    background-image: url("/assets/img/canada.jpg");
+    background-image: url("assets/img/canada.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -314,7 +314,7 @@ section{
     opacity: 0.9;
 }
 .chn{
-    background-image: url("/assets/img/china.jpg");
+    background-image: url("assets/img/china.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -327,7 +327,7 @@ section{
     opacity: 0.9;
 }
 .usa{
-    background-image: url("/assets/img/america.jpg");
+    background-image: url("assets/img/america.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -340,7 +340,7 @@ section{
     opacity: 0.9;
 }
 .aus{
-    background-image: url("/assets/img/australia.jpg");
+    background-image: url("assets/img/australia.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -353,7 +353,7 @@ section{
     opacity: 0.9;
 }
 .sa{
-    background-image: url("/assets/img/southAfrica.jpg");
+    background-image: url("assets/img/southAfrica.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -416,7 +416,7 @@ h6{
 }
 
 #dub{
-    background-image: url("/assets/img/burjkhalifadubai.jpg");
+    background-image: url("assets/img/burjkhalifadubai.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -425,7 +425,7 @@ h6{
     border-radius: 20px;
 }
 #tur{
-    background-image: url("/assets/img/Cappadociaturkey.jpg");
+    background-image: url("assets/img/Cappadociaturkey.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -434,7 +434,7 @@ h6{
     border-radius: 20px;
 }
 #fra{
-    background-image: url("/assets/img/eiffeltower.jpg");
+    background-image: url("assets/img/eiffeltower.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -443,7 +443,7 @@ h6{
     border-radius: 20px;
 }
 #can{
-    background-image: url("/assets/img/niagarafalls.jpg");
+    background-image: url("assets/img/niagarafalls.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -452,7 +452,7 @@ h6{
     border-radius: 20px;
 }
 #sou{
-    background-image: url("/assets/img/southAfrica.jpg");
+    background-image: url("assets/img/southAfrica.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -461,7 +461,7 @@ h6{
     border-radius: 20px;
 }
 #usa{
-    background-image: url("/assets/img/statueofliberty.jpg");
+    background-image: url("assets/img/statueofliberty.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -521,7 +521,7 @@ a:hover{
 }
 
 .familyImg{
-    background-image: url('/assets/img/vacation.jpg');
+    background-image: url('assets/img/vacation.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -736,7 +736,7 @@ footer p{
 }
 
 .egypt{
-    background-image: url("/assets/img/egy.jpg");
+    background-image: url("assets/img/egy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -748,7 +748,7 @@ footer p{
     opacity: 0.9;
 }
 .canada{
-    background-image: url("/assets/img/canada.jpg");
+    background-image: url("assets/img/canada.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -760,7 +760,7 @@ footer p{
     opacity: 0.9;
 }
 .china{
-    background-image: url("/assets/img/china.jpg");
+    background-image: url("assets/img/china.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -772,7 +772,7 @@ footer p{
     opacity: 0.9;
 }
 .uSa{
-    background-image: url("/assets/img/america.jpg");
+    background-image: url("assets/img/america.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -784,7 +784,7 @@ footer p{
     opacity: 0.9;
 }
 .australia{
-    background-image: url("/assets/img/australia.jpg");
+    background-image: url("assets/img/australia.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -796,7 +796,7 @@ footer p{
     opacity: 0.9;
 }
 .southAfrica{
-    background-image: url("/assets/img/southAfrica.jpg");
+    background-image: url("assets/img/southAfrica.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
